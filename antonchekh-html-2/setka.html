@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Испытание: строим сетку</title>
+        <meta charset="utf-8">
+        <style>
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 450px;
+    height: 335px;
+    font-family: "Arial", sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+.wraper {
+    background-color:#34495e;
+    height:165px;
+    margin:0 auto;
+    padding:5px 0 0 0;
+}
+
+.header {
+    width:345px;
+    height:30px;
+    background-color: #c0392b;
+    margin-right:auto;
+    margin-left:auto;
+    padding:5px 0 0 5px;
+    margin-top: 5px;
+}
+
+.menu {
+    background-color:#3498DB;
+    height:30px;
+    padding-top:5px;
+    padding-left:55px;
+    margin-top:10px;
+}
+
+.header-promo{
+    width:350px;
+    margin:10px auto 0;
+    background-color:#34495e;
+}
+.promo1, .promo2 {
+    background-color:#c0392b;
+}
+.promo1 {
+    float:left;
+    width:165px;
+    height:55px;
+    padding:5px 0 0 5px;
+    
+}
+.promo2 {
+    float:right;
+    width:165px;
+    height:55px;
+    padding:5px 0 0 5px; 
+}
+
+
+.content {
+    width:350px;
+    margin:0 auto 0 auto;
+}
+
+.layout-column {
+    float:left;
+    background-color:#3498DB;
+    margin-right: 10px;
+    margin-top:10px;
+}
+.layout-column:last-child {
+    margin-right: 0;
+}
+.left {
+    width:65px;
+    height:105px;
+    padding:5px 0 0 5px;
+}
+.main {
+    width:185px;
+    height:105px;
+    padding:5px 0 0 5px;
+}
+.right {
+    width:65px;
+    height:105px;
+    padding:5px 0 0 5px;
+}
+.clearbox:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.footer {
+    background: #34495e;
+    margin-top:10px;
+    height:40px;
+    padding-top:5px;
+    padding-left:55px;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="wraper">
+            <div class="header">Header</div>
+            <div class="menu">Menu</div>
+                <div class="header-promo clearbox">
+                    <div class="promo1">Promo 1</div>
+                    <div class="promo2">Promo 2</div>
+                </div>
+        </div>
+        <div class="content clearbox">
+            <div class="layout-column left">Left</div>
+            <div class="layout-column main">Main</div>
+            <div class="layout-column right">Right</div>
+        </div>
+        <div class="footer">Footer</div>
+    </body>
+</html>
