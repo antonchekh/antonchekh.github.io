@@ -84,32 +84,29 @@
 @media screen and (max-width: 960px) {
 
 .pagewrap {
-	width: 100%;
-	overflow-x: hidden;
-	margin:0 auto;
 	padding: 0;
+	width: 100%;
 }
 
 .header {
-	width: 100%;
-}
-
-.main {
-	width: 100%;
+	padding: 0;
 }
 
 .menu {
 	float:none;
 	width: 100%;
+	padding: 0;
 }
 
 .content {
 	float: none;
 	width:100%;
+	padding: 0;
 }
+
 
 .sidebar {
 	float:none;
 	width:100%;
+	padding: 0;
 }
-
