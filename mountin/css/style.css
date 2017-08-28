@@ -1,0 +1,104 @@
+.pagewrap {
+	padding: 5px;
+	font-family: Tahoma, Arial;
+	width: 805px;
+	margin:0 auto;
+}
+
+.header {
+	background: #F1F1F1;
+	font-size:26px;
+	padding: 10px;
+	height:63px;
+	line-height: 63px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+}
+
+.main {
+	width: 100%;
+}
+
+.menu {
+	float: left;
+	width: 23%;
+	padding-right: 30px;
+	padding-top: 10px;
+}
+
+.menu li {
+	padding: 14px 10px 13px 10px;
+	border-bottom: 1px solid #F1F1F1;
+}
+
+.menu li a {
+	text-decoration: none;
+	display:block;
+	color: #000;
+}
+
+.content {
+	float: left;
+	width:45%;
+	
+	padding-right: 20px;
+	padding-top: 15px;
+}
+
+.content h3 {
+	font-size: 25px;
+	padding: 30px 5px 21px 0;
+	font-weight: bold;
+}
+
+.content p {
+	line-height:18px;
+}
+
+.content img {
+	max-width: 100%;
+	height: auto;
+	padding-top: 25px;
+}
+
+.sidebar {
+	background: #CDF0F6;
+	padding: 10px 10px 15px 10px;
+	
+	margin-top: 15px;
+	float:right;
+	width:21%;
+}
+
+.sidebar h3 {
+	font-size: 20px;
+	padding: 18px 5px 26px 0px;
+	font-weight: bold;
+}
+
+.sidebar p {
+	padding-bottom: 7px;
+	line-height:20px;
+}
+
+@media screen and (max-width: 960px) {
+
+.pagewrap {
+	width: 100%;
+}
+
+.menu {
+	float:none;
+	width: 100%;
+}
+
+.content {
+	float: none;
+	width:100%;
+}
+
+
+.sidebar {
+	float:none;
+	width:95%;
+}
