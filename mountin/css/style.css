@@ -85,6 +85,17 @@
 
 .pagewrap {
 	width: 100%;
+	overflow-x: hidden;
+	margin:0 auto;
+	padding: 0;
+}
+
+.header {
+	width: 100%;
+}
+
+.main {
+	width: 100%;
 }
 
 .menu {
@@ -97,8 +108,8 @@
 	width:100%;
 }
 
-
 .sidebar {
 	float:none;
-	width:95%;
+	width:100%;
 }
+
