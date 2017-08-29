@@ -1,0 +1,74 @@
+@import url('materialize.css');
+
+body {
+	font-family: 'Sedgwick Ave Display', cursive;
+	background-color: #282828;
+}
+
+
+.container {
+	font-family: 'Sedgwick Ave Display', cursive;
+	background-color: #124359;
+	border: 2px solid #fff;
+}
+
+.row {
+	margin-bottom: 0px;
+}
+
+.header {
+	height: 200px;
+	color:#92BDD9;
+	text-align: center;
+	
+}
+
+.block-top .s6 {
+	height:100px;
+	border-right: 2px solid #fff;
+}
+
+.block-top .s6:last-child {
+	border:none;
+}
+
+.block-2 .s3 {
+	height:100px;
+	border-right: 2px solid #fff;
+}
+
+.block-2 .s3:last-child {
+	border:none;
+}
+
+.block-3 .s6 {
+	height:100px;
+	border-right: 2px solid #fff;
+}
+
+.block-3 .s3 {
+	height:100px;
+	border-right: 2px solid #fff;
+}
+
+.block-3 .s3:last-child {
+	border:none;
+}
+
+.block-bottom .s3 {
+	height:100px;
+	border-right: 2px solid #fff;
+}
+
+.block-bottom .s9 {
+	height:100px;
+}
+
+.text-1 {
+	font-size: 56px;
+}
+
+.text-2 {
+	font-size: 20px;
+}
+
