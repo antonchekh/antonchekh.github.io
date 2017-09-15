@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript dz_2</title>
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="dz_2-1">
+			<h2>Форма для ввода года рождения</h2>
+			<form action="">
+				<label for="user-year">
+					Год рождения: <input id="user-year" type="number">
+				</label>
+				<input type="submit" value="Возраст" onClick="getValue(); return false;">
+			</form>
+		</div>
+		<div class="dz_2-2">
+			<h2>Форма для вывода максимального числа из 2</h2>
+			<form action="">
+				<label for="number-1">
+					Число 1 <input id="number-1" type="number">
+				</label>
+				<label for="number-2">
+				Число 2 <input id="number-2" type="number">
+				</label>
+				<input type="submit" onClick="getNumber(); return false;">
+			</form>
+		</div>
+		<div class="dz_2-3">
+			<h2>Форма определения номера подъезда</h2>
+			<form action="">
+				<label for="appartment">
+					<input id="appartment" type="number">
+				</label>
+				<input type="submit" value="Узнать номер подъезда" onClick="getDoor(); return false;">
+			</form>
+		</div>
+		<div class="dz_2-4">
+			<h2>Форма для входа</h2>
+			<form action="">
+				<label for="login">
+					Логин <input id="login" type="text">
+				</label>
+				<label for="password">
+					Пароль <input id="password" type="password">
+				</label>
+				<input type="submit" onClick="getEnter()">
+			</form>
+		</div>
+		<h2>Форма для вывода максимального числа из 3</h2>
+			<form action="">
+				<label for="item-1">
+					Число 1 <input id="item-1" type="number">
+				</label>
+				<label for="item-2">
+				Число 2 <input id="item-2" type="number">
+				</label>
+				<label for="item-3">
+				Число 3 <input id="item-3" type="number">
+				</label>
+				<input type="submit" onClick="getItem()">
+			</form>
+		</div>
+		<h1>Задачи на цикл for</h1>
+		<div class="dz_2-for-1">
+			<h2>Вывести четные числа от 0 до 101</h2>
+			<input id="even" type="submit" onClick="getEven()">
+			<div id="even-number"></div>
+		</div>
+		<div class="dz_2-for-2">
+			<h2>Вывести числа в следущей последовательности: 200 199 198 ... 0</h2>
+			<input id="" type="submit" onClick="getTwoHundred()">
+			<div id="twohundred"></div>
+		</div>
+		<div class="dz_2-for-3">
+			<h2>Найти сумму чисел от 0 до 100 <span style="color: red;" id="amount"></span></h2>
+			<input id="" type="submit" value="Посчитать" onClick="getAmount()">
+			
+		</div>
+		<div class="dz_2-for-4">
+			<h2>Возвести число в степень</h2>
+			<label for="num">
+				Число <input id="num" type="number">
+			</label>
+			<label for="degree">
+				Степень <input id="degree" type="number">
+			</label>
+			<input type="submit" value="click me" onClick="getDegree(); return false;">
+				Результат: <span id="result"></span>
+		</div>
+		<div class="dz_2-for-5">
+			<h2>Таблица умножения на 7</h2>
+			Таблица умножения на 7 <input type="button" value="Показать" onClick="getMultiple()">
+			<div id="multiple"></div>
+		</div>
+		<div class="dz_2-for-6">
+			<h2>Вывести произведение чисел от 0 до 50 </h2>
+			<input id="" type="submit" value="Вывести" onClick="getTotal()">
+			<span id="total"></span>
+		</div>
+		<div class="dz_2-for-7">
+			<h2>Спецсимволы</h2>
+			<input id="" type="submit" value="Вывести" onClick="getSymbol()">
+			<span id="symbol"></span>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
+
