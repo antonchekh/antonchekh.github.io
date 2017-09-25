@@ -2,10 +2,20 @@
 
 function getValue(){
 
-	var year = document.getElementById('user-year').value;
+	var year = parseInt(document.getElementById('user-year').value);
+
+	var twentyTh = 1900;
+	var twentyOneTh = 2000;	
+
+	if (year >= 0 && year <= 17) {
+		year = year + twentyOneTh;
+	} else if (year > 17 && year < 100) {
+		year = year + twentyTh;
+	} else {
+		year == year;
+	}
 	
 	var currentYear = new Date();  // curent date now
-
 	var yearOld = currentYear.getFullYear() - year;
 
 	alert(yearOld);
@@ -18,11 +28,13 @@ function getNumber() {
 	var one = document.getElementById('number-1').value;
 	var two = document.getElementById('number-2').value;
 	var max;
-	if (one - two >= 0) {
+	if (one - two >= 1) {
 		max = one;
+	} else if (one === two) {
+		max = "равно";
 	} else {
 		max = two;
-	} 
+	}
 	alert (max);
 }  
 
