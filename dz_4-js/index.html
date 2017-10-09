@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Home Work JavaScript 4</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="dz_4-1">
+			<h2>1. Выделить абзацы красным цветом</h2>
+			<p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi delectus recusandae ducimus, voluptates sequi laborum atque odio inventore iusto. Accusantium vel molestiae quo.</p>
+
+			<p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi delectus recusandae ducimus, voluptates sequi laborum atque odio inventore iusto. Accusantium vel molestiae quo.</p>
+
+			<p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi delectus recusandae ducimus, voluptates sequi laborum atque odio inventore iusto. Accusantium vel molestiae quo.</p>
+
+			<input type="button" value="Изменить цвет абзаца" onclick="getColor()">
+		</div>
+		<div class="dz_4-2">
+			<h2>2. Добавить тень всем изображениям</h2>
+			<img src="img/img-1.jpg" alt="">
+			<img src="img/img-2.jpg" alt="">
+			<img src="img/img-3.jpg" alt="">
+
+			<p><input type="button" value="Добавить тень" onclick="getShadow()"></p>
+		</div>
+		<div id="abz" class="dz_4-3">
+			<h2>3. Добавить номера абзацев</h2>
+			<p class="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi delectus recusandae ducimus, voluptates sequi laborum atque odio inventore iusto. Accusantium vel molestiae quo.</p>
+
+			<p class="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi delectus recusandae ducimus, voluptates sequi laborum atque odio inventore iusto. Accusantium vel molestiae quo.</p>
+
+			<p class="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi delectus recusandae ducimus, voluptates sequi laborum atque odio inventore iusto. Accusantium vel molestiae quo.</p>
+			<input type="button" value="Добавить номера" onClick="getNumber()">
+		</div>
+	</div>
+		<div class="dz_4-4">
+			<h2>4. Посчитать количество нажатий</h2>
+			<input id="click1" type="button" value="клик 1">
+			<input id="click2" type="button" value="клик 2">
+			Количество кликов: <span id="result"> </span>
+		</div>
+		<div class="dz_4-5">
+			<h2>5. Функция MathPow</h2>
+			<label for="num">
+				Число <input id="num" type="number">
+			</label>
+			<label for="degree">
+				Степень <input id="degree" type="number">
+			</label>
+			<input class="btn" type="submit" value="Вывести в степень">
+			
+		</div>
+		<div class="dz_4-6">
+			<h2>6. Подчеркнуть все элементы на странице</h2>
+			<label for="tag">
+				Тег <input id="tag" type="text">
+			</label>
+			<input class="btn_6" type="button" value="Подчеркнуть">
+
+		</div>
+		<div class="dz_4-7-8">
+			<h2>7-8. "Добро пожаловать" или "вы еще молоды”.</h2>
+			<label for="age">
+				Ваш возраст <input id="age" type="text">
+			</label>
+				<input class="btn_7" type="button" value="Отправить">
+		</div>
+		<div class="dz_4-9">
+			<h2>9. Посчитать длину массива.</h2>
+				<input class="btn_9" type="button" value="Длина массива"> 
+		</div>
+		<div class="dz_4-10">
+			<h2>10. Пользователь вводит числа.</h2>
+				<label for="numb">
+				Ведите число <input id="numb" type="number">
+			</label>
+				<input class="btn_10" type="button" value="Результат"> 
+		</div>
+		<div class="dz_4-11">
+			<h2>11. Игра «Угадай число»</h2>
+			<!--<p>Нажмите кнопку чтобы начать <input class="btn_11" type="button" value="Играть"> </p>
+			<p id="text"></p>	-->
+				<label for="cifra">
+				Ведите число <input id="cifra" type="number">
+			</label>
+				
+				<input class="btn_12" type="button" value="Угадать">
+				<p id="my-result"></p>
+		</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
